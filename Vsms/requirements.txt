@@ -8,7 +8,7 @@ asgiref==3.8.1
 asttokens==3.0.0
 attrs==24.2.0
 blinker==1.9.0
-blis==0.7.9  # Downgraded for numpy compatibility
+blis>=1.2.0,<1.3.0 # Downgraded for numpy compatibility
 cachetools==5.5.0
 catalogue==2.0.10
 certifi==2024.2.2
