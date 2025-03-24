@@ -1,1 +1,1 @@
-web: gunicorn vsms.wsgi:application --chdir backend/Vsms --bind 0.0.0.0:$PORT
+web: gunicorn vsms.wsgi:application --bind 0.0.0.0:$PORT
